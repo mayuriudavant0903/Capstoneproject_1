@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+.grid-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto; 
+    height: 100vh;
+    grid-gap:10px ;
+}
+.main {
+    background-image:url("https://wallpaperaccess.com/full/5651986.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px;
+    text-align: center;
+    font-size: xx-large;
+    font-style: bold;
+    color: white;
+  } 
+  .section1 {
+   background-image: url("https://th.bing.com/th/id/OIP.neyNfTzHJQxdHX77cAOPmgHaE8?w=268&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+   background-size: cover;
+   background-repeat: no-repeat;
+    padding: 70px;
+    text-align: center;
+    font-size: larger;
+    font-style: bold;
+  }
+  .section {
+    background-image: url("https://th.bing.com/th/id/OIP.aLQQMAx8NrxvUkzVU0sK9QHaE8?w=292&h=196&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 200px;
+    text-align: center;
+  }
+  .box {
+        width: 300px;
+        height: 300px;
+        display: inline-block;
+        border: 2px solid black;
+        padding: 20px;
+        background-color:white;
+        position: relative; 
+    }
+
+      .box1 {
+        background-image: url("https://th.bing.com/th/id/OIP.VKCutZBJDCe8lpAMsLPTugHaHa?rs=1&pid=ImgDetMain");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 170px;
+        height: 175px;
+        border: 2px solid white;
+        background-color: white
+    }
+    .box2{
+        background-image: url("https://user-images.githubusercontent.com/99638448/171442173-1938072b-31aa-4653-9eb8-a25f77f2aabd.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 170px;
+        height: 175px;
+        border: 2px solid white;
+        background-color: white
+    }
+    .box3{
+        background-image: url("https://cdn.dribbble.com/users/7387221/screenshots/15349913/1_4x.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 170px;
+        height: 175px;
+        border: 2px solid white;
+        background-color: white
+    }
+  .gradient-header {
+    background: linear-gradient(to right, #63539a, #1c1c1c); 
+    padding:20px;
+    text-align: center;
+    color: white;
+}
+.gradient-header h1 {
+    font-size: medium;
+    word-spacing: 50px;
+    margin: 0;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto; 
+    font-size: small; 
+}
+h1 {
+    font-size: 2em;
+}
+
+p {
+    font-size:small;
+    color: brown;
+}
+
